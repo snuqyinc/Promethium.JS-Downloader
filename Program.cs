@@ -40,7 +40,7 @@ namespace Promethium.JS
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("[ Downloading ]");
-                client.DownloadFile("https://secretserviceclub.000webhostapp.com/promethium.js", "promethium.js");
+                client.DownloadFile(" download link ", "promethium.js");
                 Console.Write("[ Done ]");
                 Console.ReadKey();
             }
